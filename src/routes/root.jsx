@@ -1,6 +1,7 @@
 import React from 'react'
 import { Outlet, Link, useLoaderData, Form } from 'react-router-dom'
 import { getContacts, createContact } from '../contacts'
+import '/src/index.css'
 
 export async function loader() {
   const contacts = await getContacts()

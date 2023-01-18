@@ -1,5 +1,6 @@
 import React from 'react'
 import { Form } from 'react-router-dom'
+import '/src/index.css'
 
 export default function Contact() {
   const contact = {
